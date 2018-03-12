@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/register.css">
+    <style>
+        .right{
+            color:green;
+        }
+        .error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="topbar">
+    <!--<div class="mainWidth"></div>-->
+</div>
+<div class="header clear">
+    <div class="mainWidth">
+        <a class="headerLogo" href="index.html">
+            <img src="imgs/login_logo.png" alt="">
+        </a>
+        <a href="index.html" class="welcome"><span>欢迎加入</span></a>
+    </div>
+</div>
+<div class="content">
+    <div class="content_bg">
+        <div class="main clear">
+            <div class="left"></div>
+            <div class="right">
+                <div class="title">
+                      <span>已有账号
+                          <a href="login.html" class="link">直接登录</a>
+                      </span>
+                    创建账号
+                </div>
+                <div class="registerReg">
+                    <form action="" method="post" id="loginform">
+                        <div class="ui_register_formSet">
+                            <div class="uname">
+                                <input type="text" id="uname" class="uname" name="uname" placeholder="用户名">
+                                <span></span>
+                            </div>
+                            <div class="upwd">
+                                <input type="password" id="upwd" class="upwd" name="upwd" placeholder="密码">
+                                <span></span>
+                            </div>
+                            <div class="upwd2">
+                                <input type="password" id="upwd2" class="upwd2" placeholder="确认密码">
+                                <span></span>
+                            </div>
+                            <div class="tel">
+                                <input type="tel" id="tel" class="tel" name="phone" placeholder="请输入手机号">
+                                <span></span>
+                            </div>
+                            <div class="pic">
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="formInput">
+                                <input type="checkbox" />我已阅读并同意
+                                <a class="note">《蜂巢用户使用协议》</a>
+                            </div>
+
+                            <div class="btn">
+                                <input type="submit" name="" id="register-btn" value="立即注册">
+                            </div>
+
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="footer"></div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>
